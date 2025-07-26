@@ -1,0 +1,46 @@
+@use '@/app/(pages)/_globals/mixins.scss';
+
+.mission {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15.63rem;
+}
+
+.missionText {
+    @include mixins.fontStyle(3.875rem, 700, normal, 'Inter');
+    width: 70%;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.helloImage {
+    object-fit: cover;
+    border-radius: 1.25rem;
+}
+
+.purpleBackground {
+    background-color: purple;
+    position: relative;
+    margin-top: -40rem;
+    z-index: -1;
+    height: 100rem;
+}
+
+.recent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recentTitle {
+    color: white;
+    @include mixins.fontStyle(3.25rem, 700, normal, 'Inter');
+    margin-top: 0.75rem;
+}
+
+.recentSubtitle {
+    color: gray;
+    @include mixins.fontStyle(2rem, 400, normal, 'Inter');
+    margin-top: 2rem;
+}
