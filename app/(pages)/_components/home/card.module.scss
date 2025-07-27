@@ -7,10 +7,6 @@
     padding: 1.88rem;
     max-width: 36.4375rem;
 
-    @include mixins.phone {
-        max-width: 22.375rem;
-    }
-
     .term {
         color: var(--gray);
         @include mixins.fontStyle(1.125rem, 400, normal, 'Inter');
