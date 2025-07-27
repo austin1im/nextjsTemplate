@@ -1,3 +1,5 @@
+//@use "@/app/(pages)/_globals/mixins.scss";
+
 @mixin fontStyle($size, $weight, $line-height, $family) {
   font-size: $size;
   font-weight: $weight;
