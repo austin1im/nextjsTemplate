@@ -1,5 +1,5 @@
 "use client";
-import Card from "@/app/(pages)/_components/home/card.jsx"
+import Card from "@/app/(pages)/_components/home/card/card.jsx"
 import styles from "./page.module.scss"
 import Image from "next/image";
 import { FaPenNib } from "react-icons/fa";
